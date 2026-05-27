@@ -1,0 +1,20 @@
+# PlatformIO build outputs
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python virtual envs (for later)
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables (API keys etc)
+.env
