@@ -73,9 +73,11 @@ The TFT_eSPI display config is baked into `platformio.ini` as build flags, so no
 - Start with one eye before adding the second, even if you have both displays in hand
 - Print the free heap and largest contiguous block when something feels off. `ESP.getFreeHeap()` and `ESP.getMaxAllocHeap()` told me more in one print statement than hours of theorizing
 
-## License
+## A note on the inspiration
 
-MIT — see [LICENSE](LICENSE). Fork, learn, remix.
+This is a personal, non-commercial fan project inspired by *My Neighbor Totoro* (Studio Ghibli, 1988). No original Studio Ghibli artwork, audio, or assets are included in this repository — only my own code and original implementations. The character of Totoro and all related intellectual property belong to Studio Ghibli.
+
+If I ever record original Totoro-style sounds for this project, they're sound-alikes created from scratch, not extracted from the film.
 
 ## Following along
 
