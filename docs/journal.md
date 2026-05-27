@@ -4,7 +4,7 @@ What I did, what broke, what fixed it. Chronological. New entry whenever I work 
 
 ---
 
-## 2026-05-XX — Single eye animation on ILI9341, hit screen tearing
+## 2026-05 — Single eye animation on ILI9341, hit screen tearing
 
 Tried CircuitPython first on Adafruit Feather RP2040 + 2.4" TFT FeatherWing. Got static eye drawing working. Implemented `look_at()` with linear interpolation, then smoothstep easing.
 
@@ -21,7 +21,7 @@ Tried CircuitPython first on Adafruit Feather RP2040 + 2.4" TFT FeatherWing. Got
 
 ---
 
-## 2026-05-XX — Switched to ESP32 + GC9A01
+## 2026-05 — Switched to ESP32 + GC9A01
 
 New hardware: ESP32-WROOM, two GC9A01 round LCDs. Set up PlatformIO project with TFT_eSPI library, config baked into `platformio.ini` build flags.
 
@@ -35,7 +35,7 @@ Got single-eye animation working. Smooth, no tearing on stationary frames. But d
 
 ---
 
-## 2026-05-XX — Two eyes on one ESP32
+## 2026-05 — Two eyes on one ESP32
 
 Shared SPI bus (MOSI, MISO, SCK, DC, RST) between both displays. Each display gets its own CS pin (GPIO 5 and GPIO 15). Custom `selectEye()` / `selectBoth()` helpers manually drive CS pins before drawing.
 
@@ -47,7 +47,7 @@ Both eyes now sync to the same animation. Independent control (left and right lo
 
 ## TEMPLATE for new entries
 
-## YYYY-MM-DD — short title
+## YYYY-MM — short title
 
 What I did:
 
