@@ -1,6 +1,6 @@
 # 🌳 Totoro
 
-A desk companion robot inspired by *My Neighbor Totoro*. Built from scratch with my boyfriend handling the mechanical side.
+A desk companion robot inspired by *My Neighbor Totoro*. Built from scratch.
 
 ## The plan
 
