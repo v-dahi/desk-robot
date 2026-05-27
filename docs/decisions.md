@@ -64,7 +64,7 @@ Format: date, decision, why, what we rejected, implications.
 
 ## TEMPLATE for new entries
 
-## YYYY-MM-DD — short title
+## YYYY-MM — short title
 
 **Decision:**
 **Why:**
